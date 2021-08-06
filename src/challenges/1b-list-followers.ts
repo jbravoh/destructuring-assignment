@@ -1,5 +1,4 @@
-function listFollowers(followerNames: string[]): string {
-  const [nameOne, nameTwo] = followerNames;
+function listFollowers([nameOne, nameTwo]: string[]): string {
   return `Followed by ${nameOne}, ${nameTwo} and others`;
 }
 
